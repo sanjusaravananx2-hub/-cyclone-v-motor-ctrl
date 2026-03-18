@@ -1,0 +1,30 @@
+# Quartus build artifacts
+db/
+incremental_db/
+output_files/*.jdi
+output_files/*.pin
+output_files/*.pof
+output_files/*.map.*
+output_files/*.fit.*
+output_files/*.asm.*
+output_files/*.sta.*
+output_files/*.done
+output_files/*.smsg
+c5_pin_model_dump.txt
+
+# Keep the .sof bitstream
+!output_files/*.sof
+
+# Qsys generated (can regenerate)
+fpga/soc_system/
+
+# HPS handoff
+hps_isw_handoff/
+hps_sdram_p0_summary.csv
+
+# FreeRTOS zip
+freertos.zip
+
+# Unsaved Qsys
+unsaved/
+unsaved.qsys
